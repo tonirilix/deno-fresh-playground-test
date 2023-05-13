@@ -12,7 +12,7 @@ export default function Test() {
   if (!countdownVisible) {
     return (
       <div>
-        <Button onClick={handleClick}>-1</Button>
+        <Button onClick={handleClick}>Start</Button>
       </div>
     );
   }
